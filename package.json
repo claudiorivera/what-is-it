@@ -1,5 +1,5 @@
 {
-  "name": "turborepo-basic-shared",
+  "name": "what-is-it",
   "version": "0.0.0",
   "private": true,
   "workspaces": [
@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "start": "yarn --cwd apps/server start",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write ."
