@@ -90,7 +90,7 @@ const IndexPage = () => {
           </button>
         </div>
       )}
-      {results && (
+      {!!results.length && (
         <p className="text-3xl">
           That looks like some kind of {results[0]?.className.split(",")[0]} to
           me!
