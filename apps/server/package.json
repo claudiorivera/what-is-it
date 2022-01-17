@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "2.1.0",
+    "@tensorflow/tfjs": "3.13.0",
+    "@tensorflow/tfjs-node": "3.13.0",
+    "cors": "2.8.5",
+    "debug": "4.3.3",
+    "express": "4.17.2"
+  },
+  "devDependencies": {
+    "config": "*",
+    "nodemon": "2.0.15"
+  }
+}
