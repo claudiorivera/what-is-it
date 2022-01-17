@@ -2,14 +2,18 @@
 
 An app made for a TensorFlow workshop.
 
+This is a monorepo (using Turborepo) consisting of:
+
+- client: A Next.js app that uses the API
+- server: A Node.js Express app that serves the API
+
 ## Install
 
 - `yarn`
 
 ## Configure
 
-- `cp apps/client/.env.example apps/client/.env.local` and update values as necessary
-  - If you're running the project locally, you will probably want `NEXT_PUBLIC_API_BASE_URL` set to `"http://localhost:8000"`
+- `cp apps/client/.env.example apps/client/.env.local` and update values if needed
 
 ## Develop
 
