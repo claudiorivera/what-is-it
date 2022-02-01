@@ -19,7 +19,7 @@
     "config": "*",
     "eslint": "8.8.0",
     "next-transpile-modules": "9.0.0",
-    "postcss": "8.4.5",
+    "postcss": "8.4.6",
     "tailwindcss": "3.0.18",
     "tsconfig": "*",
     "typescript": "4.5.5"
