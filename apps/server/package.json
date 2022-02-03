@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app",
-    "dev": "nodemon app"
+    "dev": "PORT=$SERVER_PORT nodemon app"
   },
   "dependencies": {
     "@tensorflow-models/mobilenet": "2.1.0",
