@@ -9,7 +9,7 @@ This is a monorepo (using Turborepo) consisting of:
 
 ## Install
 
-- `yarn`
+- `pnpm i`
 
 ## Configure
 
@@ -17,4 +17,4 @@ This is a monorepo (using Turborepo) consisting of:
 
 ## Develop
 
-- `yarn dev`
+- `pnpm dev`
