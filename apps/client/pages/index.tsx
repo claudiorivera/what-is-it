@@ -7,8 +7,6 @@ type Result = {
   probability: number;
 };
 
-const apiUrl = `${process.env.NEXT_PUBLIC_API_BASE_URL}/tf`;
-
 const IndexPage = () => {
   const [fileInput] = useState("");
   const [isFetching, setIsFetching] = useState(false);
@@ -38,7 +36,7 @@ const IndexPage = () => {
     try {
       setIsFetching(true);
       setResults([]);
-      const { data } = await Axios.post<Result[]>(apiUrl, {
+      const { data } = await Axios.post<Result[]>("/tf", {
         image,
       });
       setResults(data);

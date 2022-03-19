@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   extends: ["next", "prettier"],
   settings: {
     next: {
@@ -7,5 +8,6 @@ module.exports = {
   },
   rules: {
     "@next/next/no-html-link-for-pages": "off",
+    "react/jsx-key": "off",
   },
 };

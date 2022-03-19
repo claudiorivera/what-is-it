@@ -17,7 +17,7 @@ const initMobileNetModel = async () => {
 
 initMobileNetModel();
 
-app.use("/tf", async (req, res) => {
+app.use("/", async (req, res) => {
   try {
     const data = req.body.image.split(",")[1];
     const image = tfnode.node.decodeImage(new Buffer.from(data, "base64"));
