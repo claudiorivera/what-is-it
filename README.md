@@ -4,17 +4,17 @@ An app made for a TensorFlow workshop.
 
 This is a monorepo (using Turborepo) consisting of:
 
-- client: A Next.js app that uses the API
-- server: A Node.js Express app that serves the API
+- client: A Next.js app
+- server: A Node.js Express app
 
 ## Install
 
-- `yarn`
+- `pnpm i`
 
 ## Configure
 
-- `cp apps/client/.env.example apps/client/.env.local` and update values if needed
+- `cp .env.sample .env` and update values if needed
 
 ## Develop
 
-- `yarn dev`
+- `pnpm dev`
