@@ -1,5 +1,7 @@
 const withTM = require("next-transpile-modules")([]);
 
+const apiBaseUrl = process.env.SERVER_BASE_URL || "http://localhost:8000";
+
 module.exports = withTM({
   reactStrictMode: true,
   async rewrites() {
@@ -7,7 +9,7 @@ module.exports = withTM({
       beforeFiles: [
         {
           source: "/tf",
-          destination: "http://localhost:8000",
+          destination: apiBaseUrl,
         },
       ],
     };
