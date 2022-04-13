@@ -15,7 +15,7 @@ importers:
   apps/client:
     specifiers:
       '@types/node': 17.0.21
-      '@types/react': 18.0.1
+      '@types/react': 18.0.3
       '@types/react-dom': 18.0.0
       autoprefixer: 10.4.4
       axios: 0.26.1
@@ -36,7 +36,7 @@ importers:
       react-dom: 18.0.0_react@18.0.0
     devDependencies:
       '@types/node': 17.0.21
-      '@types/react': 18.0.1
+      '@types/react': 18.0.3
       '@types/react-dom': 18.0.0
       autoprefixer: 10.4.4_postcss@8.4.12
       config: link:../../packages/config
@@ -446,11 +446,11 @@ packages:
   /@types/react-dom/18.0.0:
     resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
     dependencies:
-      '@types/react': 18.0.1
+      '@types/react': 18.0.3
     dev: true
 
-  /@types/react/18.0.1:
-    resolution: {integrity: sha512-VnWlrVgG0dYt+NqlfMI0yUYb8Rdl4XUROyH+c6gq/iFCiZ805Vi//26UW38DHnxQkbDhnrIWTBiy6oKZqL11cw==}
+  /@types/react/18.0.3:
+    resolution: {integrity: sha512-P8QUaMW4k+kH9aKNPl9b3XWcKMSSALYprLL8xpAMJOLUn3Pl6B+6nKC4F7dsk9oJPwkiRx+qlwhG/Zc1LxFVuQ==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
