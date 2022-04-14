@@ -16,7 +16,7 @@ importers:
     specifiers:
       '@types/node': 17.0.21
       '@types/react': 18.0.5
-      '@types/react-dom': 18.0.0
+      '@types/react-dom': 18.0.1
       autoprefixer: 10.4.4
       axios: 0.26.1
       config: workspace:*
@@ -37,7 +37,7 @@ importers:
     devDependencies:
       '@types/node': 17.0.21
       '@types/react': 18.0.5
-      '@types/react-dom': 18.0.0
+      '@types/react-dom': 18.0.1
       autoprefixer: 10.4.4_postcss@8.4.12
       config: link:../../packages/config
       eslint: 8.13.0
@@ -443,8 +443,8 @@ packages:
     resolution: {integrity: sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==}
     dev: true
 
-  /@types/react-dom/18.0.0:
-    resolution: {integrity: sha512-49897Y0UiCGmxZqpC8Blrf6meL8QUla6eb+BBhn69dTXlmuOlzkfr7HHY/O8J25e1lTUMs+YYxSlVDAaGHCOLg==}
+  /@types/react-dom/18.0.1:
+    resolution: {integrity: sha512-jCwTXvHtRLiyVvKm9aEdHXs8rflVOGd5Sl913JZrPshfXjn8NYsTNZOz70bCsA31IR0TOqwi3ad+X4tSCBoMTw==}
     dependencies:
       '@types/react': 18.0.5
     dev: true
