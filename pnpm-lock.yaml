@@ -55,7 +55,7 @@ importers:
       cors: 2.8.5
       debug: 4.3.4
       express: 4.17.3
-      nodemon: 2.0.15
+      nodemon: 2.0.16
     dependencies:
       '@tensorflow-models/mobilenet': 2.1.0
       '@tensorflow/tfjs': 3.15.0
@@ -64,7 +64,7 @@ importers:
       debug: 4.3.4
       express: 4.17.3
     devDependencies:
-      nodemon: 2.0.15
+      nodemon: 2.0.16
 
   packages/config:
     specifiers:
@@ -2429,8 +2429,8 @@ packages:
     resolution: {integrity: sha512-XxYDdcQ6eKqp/YjI+tb2C5WM2LgjnZrfYg4vgQt49EK268b6gYCHsBLrK2qvJo4FmCtqmKezb0WZFK4fkrZNsg==}
     dev: true
 
-  /nodemon/2.0.15:
-    resolution: {integrity: sha512-gdHMNx47Gw7b3kWxJV64NI+Q5nfl0y5DgDbiVtShiwa7Z0IZ07Ll4RLFo6AjrhzMtoEZn5PDE3/c2AbVsiCkpA==}
+  /nodemon/2.0.16:
+    resolution: {integrity: sha512-zsrcaOfTWRuUzBn3P44RDliLlp263Z/76FPoHFr3cFFkOz0lTPAcIw8dCzfdVIx/t3AtDYCZRCDkoCojJqaG3w==}
     engines: {node: '>=8.10.0'}
     hasBin: true
     requiresBuild: true
