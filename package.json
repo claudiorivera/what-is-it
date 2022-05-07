@@ -2,7 +2,7 @@
   "name": "what-is-it",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@6.32.11",
+  "packageManager": "pnpm@6.32.12",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
