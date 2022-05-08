@@ -18,7 +18,7 @@ importers:
       '@types/react': 18.0.9
       '@types/react-dom': 18.0.3
       autoprefixer: 10.4.7
-      axios: 0.26.1
+      axios: 0.27.2
       config: workspace:*
       eslint: 8.15.0
       next: 12.1.6
@@ -30,7 +30,7 @@ importers:
       tsconfig: workspace:*
       typescript: 4.6.4
     dependencies:
-      axios: 0.26.1
+      axios: 0.27.2
       next: 12.1.6_react-dom@18.1.0+react@18.1.0
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
@@ -750,10 +750,11 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
-  /axios/0.26.1:
-    resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
+  /axios/0.27.2:
+    resolution: {integrity: sha512-t+yRIyySRTp/wua5xEr+z1q60QmLq8ABsS5O9Me1AsE5dfKqgnCFzwiCZZ/cGNd1lq4/7akDWMxdhVlucjmnOQ==}
     dependencies:
       follow-redirects: 1.14.9
+      form-data: 4.0.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -1685,6 +1686,15 @@ packages:
 
   /form-data/3.0.1:
     resolution: {integrity: sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==}
+    engines: {node: '>= 6'}
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
+    dev: false
+
+  /form-data/4.0.0:
+    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
     engines: {node: '>= 6'}
     dependencies:
       asynckit: 0.4.0
