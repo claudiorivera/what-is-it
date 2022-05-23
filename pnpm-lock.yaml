@@ -51,8 +51,8 @@ importers:
     specifiers:
       '@tensorflow-models/mobilenet': 2.1.0
       '@tensorflow/tfjs': 3.18.0
-      '@tensorflow/tfjs-converter': 3.1.0
-      '@tensorflow/tfjs-core': 3.1.0
+      '@tensorflow/tfjs-converter': 3.18.0
+      '@tensorflow/tfjs-core': 3.18.0
       '@tensorflow/tfjs-node': 3.18.0
       cors: 2.8.5
       debug: 4.3.4
@@ -60,15 +60,15 @@ importers:
       nodemon: 2.0.16
       seedrandom: 2.4.4
     dependencies:
-      '@tensorflow-models/mobilenet': 2.1.0_27gxoyjpe3jktlka6b6nvcvvkm
+      '@tensorflow-models/mobilenet': 2.1.0_ce7e77rhh6oipcy6kxvkentnmi
       '@tensorflow/tfjs': 3.18.0_seedrandom@2.4.4
       '@tensorflow/tfjs-node': 3.18.0_seedrandom@2.4.4
       cors: 2.8.5
       debug: 4.3.4
       express: 4.18.1
     devDependencies:
-      '@tensorflow/tfjs-converter': 3.1.0_o53umby66tgfe5f6b33wqxohxu
-      '@tensorflow/tfjs-core': 3.1.0
+      '@tensorflow/tfjs-converter': 3.18.0_br26fteayl44zj43fz4bazb7oq
+      '@tensorflow/tfjs-core': 3.18.0
       nodemon: 2.0.16
       seedrandom: 2.4.4
 
@@ -299,14 +299,14 @@ packages:
       defer-to-connect: 1.1.3
     dev: true
 
-  /@tensorflow-models/mobilenet/2.1.0_27gxoyjpe3jktlka6b6nvcvvkm:
+  /@tensorflow-models/mobilenet/2.1.0_ce7e77rhh6oipcy6kxvkentnmi:
     resolution: {integrity: sha512-JjqT9ijHDFA2FEpUGWg7H2lQ0GrMuE2VmiCRBYmUew6b4JKht8LXDjG5HxZh95YH6c/25sZWTpGeHbquloH+hw==}
     peerDependencies:
       '@tensorflow/tfjs-converter': ^3.1.0
       '@tensorflow/tfjs-core': ^3.1.0
     dependencies:
-      '@tensorflow/tfjs-converter': 3.1.0_o53umby66tgfe5f6b33wqxohxu
-      '@tensorflow/tfjs-core': 3.1.0
+      '@tensorflow/tfjs-converter': 3.18.0_br26fteayl44zj43fz4bazb7oq
+      '@tensorflow/tfjs-core': 3.18.0
     dev: false
 
   /@tensorflow/tfjs-backend-cpu/3.18.0_br26fteayl44zj43fz4bazb7oq:
@@ -335,32 +335,12 @@ packages:
       seedrandom: 2.4.3
     dev: false
 
-  /@tensorflow/tfjs-converter/3.1.0_o53umby66tgfe5f6b33wqxohxu:
-    resolution: {integrity: sha512-V1DJ9ha9fy7pSXm6H6IGH4iF/5V32o32M8ZhFy7eydYUNWTJau8svpFI/i8AhJ1htVHKXtPTEPAo/T5XXsWN/g==}
-    peerDependencies:
-      '@tensorflow/tfjs-core': 3.1.0
-    dependencies:
-      '@tensorflow/tfjs-core': 3.1.0
-
   /@tensorflow/tfjs-converter/3.18.0_br26fteayl44zj43fz4bazb7oq:
     resolution: {integrity: sha512-hpChA+zVNQOVwRnCfqDb1WI9jbEAKA6DuEm4m75Zb3dIlE6VVooDmAaHBhlc++z2q2G1sBzF9A4Bv48SUpN6vA==}
     peerDependencies:
       '@tensorflow/tfjs-core': 3.18.0
     dependencies:
       '@tensorflow/tfjs-core': 3.18.0
-    dev: false
-
-  /@tensorflow/tfjs-core/3.1.0:
-    resolution: {integrity: sha512-KGSJEB6CTIk5YVgKbdpW0nAKuNtWaMdqYSrNYX43IAGdNrH0vDsipACH/bhrQyo9/NYiK/4Jbkr4k9pGwwiPJQ==}
-    engines: {yarn: '>= 1.3.2'}
-    dependencies:
-      '@types/offscreencanvas': 2019.3.0
-      '@types/seedrandom': 2.4.27
-      '@types/webgl-ext': 0.0.30
-      node-fetch: 2.6.7
-      seedrandom: 2.4.3
-    transitivePeerDependencies:
-      - encoding
 
   /@tensorflow/tfjs-core/3.18.0:
     resolution: {integrity: sha512-gMxisZozqsr5sCKlphF/eVBLg91MjlBiN60tjX8hJAu0WlSn6Gi5k65GNIL+Pq6hrxpvImcfdCmTH/2XJVZ0Mg==}
@@ -376,7 +356,6 @@ packages:
       seedrandom: 2.4.3
     transitivePeerDependencies:
       - encoding
-    dev: false
 
   /@tensorflow/tfjs-data/3.18.0_aizv5xj4rqxpinnowhko4o6wki:
     resolution: {integrity: sha512-s43vISJh8K/UN2E2zGRhtj/Kyn8dr4ll8EQkapwzm7fGO9afXCnMsTp6rkZq3fFXouCYA2k1B/j7JssIDr50+w==}
@@ -451,7 +430,6 @@ packages:
 
   /@types/long/4.0.1:
     resolution: {integrity: sha512-5tXH6Bx/kNGd3MgffdmP4dy2Z+G4eaXw0SE81Tq3BNadtnMR5/ySMzX4SLEzHJzSmPNn4HIdpQsBvXMUykr58w==}
-    dev: false
 
   /@types/node-fetch/2.6.1:
     resolution: {integrity: sha512-oMqjURCaxoSIsHSr1E47QHzbmzNR5rK8McHuNb11BOM9cHcIK3Avy0s/b2JlXHoQGTYS3NsvWzV1M0iK7l0wbA==}
@@ -568,7 +546,6 @@ packages:
 
   /@webgpu/types/0.1.17:
     resolution: {integrity: sha512-M8INbXsMdkWtVsSHRPEiTXHe0S4gxMhYA/Kz4pNoUF9IXd3PHMi6/2n8EAsqkAEdna+aeCm2RmscWV0hsmIf0Q==}
-    dev: false
 
   /abbrev/1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -2297,7 +2274,6 @@ packages:
 
   /long/4.0.0:
     resolution: {integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==}
-    dev: false
 
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
