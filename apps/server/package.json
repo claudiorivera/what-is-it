@@ -18,11 +18,11 @@
     "@tensorflow/tfjs-converter": "3.18.0",
     "@tensorflow/tfjs-core": "3.18.0",
     "nodemon": "2.0.16",
-    "seedrandom": "3.0.5"
+    "seedrandom": "2.4.3"
   },
   "peerDependencies": {
     "@tensorflow/tfjs-converter": "3.18.0",
     "@tensorflow/tfjs-core": "3.18.0",
-    "seedrandom": "3.0.5"
+    "seedrandom": "2.4.3"
   }
 }
