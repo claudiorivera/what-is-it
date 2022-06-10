@@ -26,7 +26,7 @@ importers:
       postcss: 8.4.14
       react: 18.1.0
       react-dom: 18.1.0
-      tailwindcss: 3.1.0
+      tailwindcss: 3.1.1
       tsconfig: workspace:*
       typescript: 4.7.3
     dependencies:
@@ -43,7 +43,7 @@ importers:
       eslint: 8.17.0
       next-transpile-modules: 9.0.0
       postcss: 8.4.14
-      tailwindcss: 3.1.0
+      tailwindcss: 3.1.1
       tsconfig: link:../../packages/tsconfig
       typescript: 4.7.3
 
@@ -3271,8 +3271,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /tailwindcss/3.1.0:
-    resolution: {integrity: sha512-XzXq31Fj6RizhlFVNLBlDqzs0dXuIEOAknuOcKx2R/IIQbEz5DnngslYY4JNN6e9JkNBjHGm1w2XDABsADg1ng==}
+  /tailwindcss/3.1.1:
+    resolution: {integrity: sha512-F5VFj5FiS4QZqdXPE6T6RJFqbsmISQ2KBUp9bOQyws9TleGToHsa54X8kwXwVdHMQhNeXOlxI47lrRICEVuOvg==}
     engines: {node: '>=12.13.0'}
     hasBin: true
     dependencies:
