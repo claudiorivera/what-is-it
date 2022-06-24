@@ -17,7 +17,7 @@
   "devDependencies": {
     "@tensorflow/tfjs-converter": "3.18.0",
     "@tensorflow/tfjs-core": "3.18.0",
-    "nodemon": "2.0.16",
+    "nodemon": "2.0.18",
     "seedrandom": "2.4.3"
   },
   "peerDependencies": {
