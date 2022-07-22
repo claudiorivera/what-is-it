@@ -51,7 +51,7 @@ importers:
     specifiers:
       '@tensorflow-models/mobilenet': 2.1.0
       '@tensorflow/tfjs': 3.18.0
-      '@tensorflow/tfjs-converter': 3.18.0
+      '@tensorflow/tfjs-converter': 3.19.0
       '@tensorflow/tfjs-core': 3.18.0
       '@tensorflow/tfjs-node': 3.18.0
       cors: 2.8.5
@@ -60,14 +60,14 @@ importers:
       nodemon: 2.0.19
       seedrandom: 3.0.5
     dependencies:
-      '@tensorflow-models/mobilenet': 2.1.0_ce7e77rhh6oipcy6kxvkentnmi
+      '@tensorflow-models/mobilenet': 2.1.0_td4fqhsbaectuauq2ltvop2qqq
       '@tensorflow/tfjs': 3.18.0_seedrandom@3.0.5
       '@tensorflow/tfjs-node': 3.18.0_seedrandom@3.0.5
       cors: 2.8.5
       debug: 4.3.4
       express: 4.18.1
     devDependencies:
-      '@tensorflow/tfjs-converter': 3.18.0_br26fteayl44zj43fz4bazb7oq
+      '@tensorflow/tfjs-converter': 3.19.0_br26fteayl44zj43fz4bazb7oq
       '@tensorflow/tfjs-core': 3.18.0
       nodemon: 2.0.19
       seedrandom: 3.0.5
@@ -300,13 +300,13 @@ packages:
     dependencies:
       tslib: 2.4.0
 
-  /@tensorflow-models/mobilenet/2.1.0_ce7e77rhh6oipcy6kxvkentnmi:
+  /@tensorflow-models/mobilenet/2.1.0_td4fqhsbaectuauq2ltvop2qqq:
     resolution: {integrity: sha512-JjqT9ijHDFA2FEpUGWg7H2lQ0GrMuE2VmiCRBYmUew6b4JKht8LXDjG5HxZh95YH6c/25sZWTpGeHbquloH+hw==}
     peerDependencies:
       '@tensorflow/tfjs-converter': ^3.1.0
       '@tensorflow/tfjs-core': ^3.1.0
     dependencies:
-      '@tensorflow/tfjs-converter': 3.18.0_br26fteayl44zj43fz4bazb7oq
+      '@tensorflow/tfjs-converter': 3.19.0_br26fteayl44zj43fz4bazb7oq
       '@tensorflow/tfjs-core': 3.18.0
     dev: false
 
@@ -340,6 +340,14 @@ packages:
     resolution: {integrity: sha512-hpChA+zVNQOVwRnCfqDb1WI9jbEAKA6DuEm4m75Zb3dIlE6VVooDmAaHBhlc++z2q2G1sBzF9A4Bv48SUpN6vA==}
     peerDependencies:
       '@tensorflow/tfjs-core': 3.18.0
+    dependencies:
+      '@tensorflow/tfjs-core': 3.18.0
+    dev: false
+
+  /@tensorflow/tfjs-converter/3.19.0_br26fteayl44zj43fz4bazb7oq:
+    resolution: {integrity: sha512-B69HQq9/orsM8pGJPjNp1cV+hIcc90mxcRIsQSYGovTUNEcftmz2Sh+mqXDWysKUk0gRfx5CX6eJk6NaE55Xow==}
+    peerDependencies:
+      '@tensorflow/tfjs-core': 3.19.0
     dependencies:
       '@tensorflow/tfjs-core': 3.18.0
 
