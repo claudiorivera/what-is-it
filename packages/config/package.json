@@ -7,13 +7,13 @@
     "eslint-preset.js"
   ],
   "dependencies": {
-    "eslint-config-next": "12.2.2",
+    "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-react": "7.30.1"
   },
   "devDependencies": {
     "eslint": "8.20.0",
-    "next": "12.2.2",
+    "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.7.4"
