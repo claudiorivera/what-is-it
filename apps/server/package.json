@@ -15,13 +15,13 @@
     "express": "4.18.1"
   },
   "devDependencies": {
-    "@tensorflow/tfjs-converter": "3.18.0",
+    "@tensorflow/tfjs-converter": "3.19.0",
     "@tensorflow/tfjs-core": "3.18.0",
     "nodemon": "2.0.19",
     "seedrandom": "3.0.5"
   },
   "peerDependencies": {
-    "@tensorflow/tfjs-converter": "3.18.0",
+    "@tensorflow/tfjs-converter": "3.19.0",
     "@tensorflow/tfjs-core": "3.18.0",
     "seedrandom": "3.0.5"
   }
