@@ -52,7 +52,7 @@ importers:
       '@tensorflow-models/mobilenet': 2.1.0
       '@tensorflow/tfjs': 3.18.0
       '@tensorflow/tfjs-converter': 3.19.0
-      '@tensorflow/tfjs-core': 3.18.0
+      '@tensorflow/tfjs-core': 3.19.0
       '@tensorflow/tfjs-node': 3.19.0
       cors: 2.8.5
       debug: 4.3.4
@@ -60,15 +60,15 @@ importers:
       nodemon: 2.0.19
       seedrandom: 3.0.5
     dependencies:
-      '@tensorflow-models/mobilenet': 2.1.0_td4fqhsbaectuauq2ltvop2qqq
+      '@tensorflow-models/mobilenet': 2.1.0_64clqv444ndwypqxo7tn4b7aum
       '@tensorflow/tfjs': 3.18.0_seedrandom@3.0.5
       '@tensorflow/tfjs-node': 3.19.0_seedrandom@3.0.5
       cors: 2.8.5
       debug: 4.3.4
       express: 4.18.1
     devDependencies:
-      '@tensorflow/tfjs-converter': 3.19.0_br26fteayl44zj43fz4bazb7oq
-      '@tensorflow/tfjs-core': 3.18.0
+      '@tensorflow/tfjs-converter': 3.19.0_hek32lflchivueqv5i4vgonghu
+      '@tensorflow/tfjs-core': 3.19.0
       nodemon: 2.0.19
       seedrandom: 3.0.5
 
@@ -300,14 +300,14 @@ packages:
     dependencies:
       tslib: 2.4.0
 
-  /@tensorflow-models/mobilenet/2.1.0_td4fqhsbaectuauq2ltvop2qqq:
+  /@tensorflow-models/mobilenet/2.1.0_64clqv444ndwypqxo7tn4b7aum:
     resolution: {integrity: sha512-JjqT9ijHDFA2FEpUGWg7H2lQ0GrMuE2VmiCRBYmUew6b4JKht8LXDjG5HxZh95YH6c/25sZWTpGeHbquloH+hw==}
     peerDependencies:
       '@tensorflow/tfjs-converter': ^3.1.0
       '@tensorflow/tfjs-core': ^3.1.0
     dependencies:
-      '@tensorflow/tfjs-converter': 3.19.0_br26fteayl44zj43fz4bazb7oq
-      '@tensorflow/tfjs-core': 3.18.0
+      '@tensorflow/tfjs-converter': 3.19.0_hek32lflchivueqv5i4vgonghu
+      '@tensorflow/tfjs-core': 3.19.0
     dev: false
 
   /@tensorflow/tfjs-backend-cpu/3.18.0_br26fteayl44zj43fz4bazb7oq:
@@ -370,20 +370,12 @@ packages:
       '@tensorflow/tfjs-core': 3.18.0
     dev: false
 
-  /@tensorflow/tfjs-converter/3.19.0_br26fteayl44zj43fz4bazb7oq:
-    resolution: {integrity: sha512-B69HQq9/orsM8pGJPjNp1cV+hIcc90mxcRIsQSYGovTUNEcftmz2Sh+mqXDWysKUk0gRfx5CX6eJk6NaE55Xow==}
-    peerDependencies:
-      '@tensorflow/tfjs-core': 3.19.0
-    dependencies:
-      '@tensorflow/tfjs-core': 3.18.0
-
   /@tensorflow/tfjs-converter/3.19.0_hek32lflchivueqv5i4vgonghu:
     resolution: {integrity: sha512-B69HQq9/orsM8pGJPjNp1cV+hIcc90mxcRIsQSYGovTUNEcftmz2Sh+mqXDWysKUk0gRfx5CX6eJk6NaE55Xow==}
     peerDependencies:
       '@tensorflow/tfjs-core': 3.19.0
     dependencies:
       '@tensorflow/tfjs-core': 3.19.0
-    dev: false
 
   /@tensorflow/tfjs-core/3.18.0:
     resolution: {integrity: sha512-gMxisZozqsr5sCKlphF/eVBLg91MjlBiN60tjX8hJAu0WlSn6Gi5k65GNIL+Pq6hrxpvImcfdCmTH/2XJVZ0Mg==}
@@ -399,6 +391,7 @@ packages:
       seedrandom: 2.4.3
     transitivePeerDependencies:
       - encoding
+    dev: false
 
   /@tensorflow/tfjs-core/3.19.0:
     resolution: {integrity: sha512-znJ+TOJ3NdNL5yjw8M7dn2jO96sokiH1wfFuD7gglCkbZ4SXlFpFj2xelNdRHHmeYanMhJzqeyOW9whUnNcBqw==}
@@ -414,7 +407,6 @@ packages:
       seedrandom: 3.0.5
     transitivePeerDependencies:
       - encoding
-    dev: false
 
   /@tensorflow/tfjs-data/3.18.0_ct4ioau627xna4dkbmwj6slhxi:
     resolution: {integrity: sha512-s43vISJh8K/UN2E2zGRhtj/Kyn8dr4ll8EQkapwzm7fGO9afXCnMsTp6rkZq3fFXouCYA2k1B/j7JssIDr50+w==}
@@ -564,10 +556,10 @@ packages:
 
   /@types/seedrandom/2.4.27:
     resolution: {integrity: sha512-YvMLqFak/7rt//lPBtEHv3M4sRNA+HGxrhFZ+DQs9K2IkYJbNwVIb8avtJfhDiuaUBX/AW0jnjv48FV8h3u9bQ==}
+    dev: false
 
   /@types/seedrandom/2.4.30:
     resolution: {integrity: sha512-AnxLHewubLVzoF/A4qdxBGHCKifw8cY32iro3DQX9TPcetE95zBeVt3jnsvtvAUf1vwzMfwzp4t/L2yqPlnjkQ==}
-    dev: false
 
   /@types/webgl-ext/0.0.30:
     resolution: {integrity: sha512-LKVgNmBxN0BbljJrVUwkxwRYqzsAEPcZOe6S2T6ZaBDIrFp0qu4FNlpc5sM1tGbXUYFgdVQIoeLk1Y1UoblyEg==}
@@ -640,10 +632,10 @@ packages:
 
   /@webgpu/types/0.1.16:
     resolution: {integrity: sha512-9E61voMP4+Rze02jlTXud++Htpjyyk8vw5Hyw9FGRrmhHQg2GqbuOfwf5Klrb8vTxc2XWI3EfO7RUHMpxTj26A==}
-    dev: false
 
   /@webgpu/types/0.1.17:
     resolution: {integrity: sha512-M8INbXsMdkWtVsSHRPEiTXHe0S4gxMhYA/Kz4pNoUF9IXd3PHMi6/2n8EAsqkAEdna+aeCm2RmscWV0hsmIf0Q==}
+    dev: false
 
   /abbrev/1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -2785,7 +2777,8 @@ packages:
       loose-envify: 1.4.0
 
   /seedrandom/2.4.3:
-    resolution: {integrity: sha1-JDhQTa0zkXMUv/GKxNeU8W1qrsw=}
+    resolution: {integrity: sha512-2CkZ9Wn2dS4mMUWQaXLsOAfGD+irMlLEeSP3cMxpGbgyOOzJGFa+MWCOMTOCMyZinHRPxyOj/S/C57li/1to6Q==}
+    dev: false
 
   /seedrandom/3.0.5:
     resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
@@ -3075,7 +3068,7 @@ packages:
     dev: true
 
   /tr46/0.0.3:
-    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=}
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
 
   /tsconfig-paths/3.14.1:
     resolution: {integrity: sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==}
@@ -3306,10 +3299,10 @@ packages:
     dev: false
 
   /webidl-conversions/3.0.1:
-    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=}
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
 
   /whatwg-url/5.0.0:
-    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=}
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
     dependencies:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
