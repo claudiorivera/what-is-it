@@ -9,7 +9,7 @@
     "lint": "turbo run lint"
   },
   "devDependencies": {
-    "eslint": "8.21.0",
+    "eslint": "8.22.0",
     "prettier": "2.7.1",
     "turbo": "1.4.3"
   }
