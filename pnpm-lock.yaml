@@ -17,7 +17,7 @@ importers:
       '@types/node': 17.0.21
       '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
-      autoprefixer: 10.4.10
+      autoprefixer: 10.4.11
       axios: 0.27.2
       config: workspace:*
       eslint: 8.23.1
@@ -38,7 +38,7 @@ importers:
       '@types/node': 17.0.21
       '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
-      autoprefixer: 10.4.10_postcss@8.4.16
+      autoprefixer: 10.4.11_postcss@8.4.16
       config: link:../../packages/config
       eslint: 8.23.1
       next-transpile-modules: 9.0.0
@@ -712,8 +712,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: false
 
-  /autoprefixer/10.4.10_postcss@8.4.16:
-    resolution: {integrity: sha512-nMaiDARyp1e74c8IeAXkr+BmFKa8By4Zak7tyaNPF09Iu39WFpNXOWrVirmXjKr+5cOyERwvtbMOLYz6iBJYgQ==}
+  /autoprefixer/10.4.11_postcss@8.4.16:
+    resolution: {integrity: sha512-5lHp6DgRodxlBLSkzHOTcufWFflH1ewfy2hvFQyjrblBFlP/0Yh4O/Wrg4ow8WRlN3AAUFFLAQwX8hTptzqVHg==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
