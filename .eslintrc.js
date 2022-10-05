@@ -1,1 +1,9 @@
-module.exports = require("./packages/config/eslint-preset.js");
+module.exports = {
+	root: true,
+	extends: ["custom"],
+	settings: {
+		next: {
+			rootDir: ["apps/*/", "packages/*/"],
+		},
+	},
+};
