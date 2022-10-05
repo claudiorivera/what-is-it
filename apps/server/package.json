@@ -2,6 +2,7 @@
 	"name": "server",
 	"version": "1.0.0",
 	"private": true,
+	"packageManager": "pnpm@7.13.1",
 	"scripts": {
 		"start": "node app",
 		"dev": "PORT=$SERVER_PORT nodemon app",
