@@ -1,26 +1,25 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node app",
-    "dev": "PORT=$SERVER_PORT nodemon app"
-  },
-  "dependencies": {
-    "@tensorflow-models/mobilenet": "2.1.0",
-    "@tensorflow/tfjs": "3.20.0",
-    "@tensorflow/tfjs-node": "3.20.0",
-    "cors": "2.8.5",
-    "debug": "4.3.4",
-    "express": "4.18.1"
-  },
-  "devDependencies": {
-    "@tensorflow/tfjs-converter": "3.20.0",
-    "@tensorflow/tfjs-core": "3.20.0",
-    "nodemon": "2.0.20",
-    "seedrandom": "3.0.5"
-  },
-  "engines": {
-    "node": "18.x"
-  }
+	"name": "server",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node app",
+		"dev": "PORT=$SERVER_PORT nodemon app",
+		"lint": "eslint ."
+	},
+	"dependencies": {
+		"@tensorflow-models/mobilenet": "2.1.0",
+		"@tensorflow/tfjs": "3.20.0",
+		"@tensorflow/tfjs-node": "3.20.0",
+		"cors": "2.8.5",
+		"debug": "4.3.4",
+		"express": "4.18.1"
+	},
+	"devDependencies": {
+		"@tensorflow/tfjs-converter": "3.20.0",
+		"@tensorflow/tfjs-core": "3.20.0",
+		"eslint-config-custom-server": "workspace:*",
+		"nodemon": "2.0.20",
+		"seedrandom": "3.0.5"
+	}
 }
