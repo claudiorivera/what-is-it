@@ -9,6 +9,10 @@
 			"matchDepTypes": ["devDependencies"],
 			"matchUpdateTypes": ["minor", "patch", "pin", "digest"],
 			"automerge": true
+		},
+		{
+			"matchPackagePatterns": ["@tensorflow"],
+			"groupName": "tensorflow"
 		}
 	],
 	"commitMessagePrefix": "🤖"
