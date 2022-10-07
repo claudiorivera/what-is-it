@@ -20,7 +20,7 @@ importers:
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       autoprefixer: 10.4.12
-      axios: 1.0.0
+      axios: 1.1.2
       eslint: 8.24.0
       eslint-config-custom: workspace:*
       eslint-config-next: 12.3.1
@@ -33,7 +33,7 @@ importers:
       tsconfig: workspace:*
       typescript: 4.8.4
     dependencies:
-      axios: 1.0.0
+      axios: 1.1.2
       next: 12.3.1_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -753,8 +753,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /axios/1.0.0:
-    resolution: {integrity: sha512-SsHsGFN1qNPFT5QhSoSD37SHDfGyLSW5AESmyLk2JeCMHv5g0I9g0Hz/zQHx2KNe0jGXh2q2hAm7OdkXm360CA==}
+  /axios/1.1.2:
+    resolution: {integrity: sha512-bznQyETwElsXl2RK7HLLwb5GPpOLlycxHCtrpDR/4RqqBzjARaOTo3jz4IgtntWUYee7Ne4S8UHd92VCuzPaWA==}
     dependencies:
       follow-redirects: 1.15.2
       form-data: 4.0.0
